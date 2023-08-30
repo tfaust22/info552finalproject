@@ -1,38 +1,39 @@
 #aboutus-grid{
-    @include lg{
     display: grid;
     grid-column: 40%, auto;
     column-width: 200px;
     grid-template-areas:
      "jp aj
      am mp
-     hb
-     aco";
-     gap: 8px;
-    }
+     hb sv
+     aco aco";     
 }
 
-    #jimpic{
-        grid-area: jp;
-    }
+#jimpic{
+    grid-area: jp;
+}
 
-    #aboutjim{
-        grid-area: aj;
-    }
+#aboutjim{
+    grid-area: aj;
+}
 
 
-    #mattpic{
-        grid-area: mp;
-    }
+#mattpic{
+    grid-area: mp;
+}
 
-    #aboutmatt{
-        grid-area: am;
-    }
+#aboutmatt{
+    grid-area: am;
+}
 
-    #homebrewpic{
-        grid-area: hb;
-    }
+#homebrewpic{
+    grid-area: hb;
+}
 
-    #aboutcompany{
-        grid-area: aco;
-    }
+#aboutcompany{
+    grid-area: aco;
+}
+
+#streetview{
+    grid-area: sv
+}
