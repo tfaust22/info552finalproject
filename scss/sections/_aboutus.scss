@@ -1,4 +1,5 @@
 #aboutus-grid{
+    @include lg{
     display: grid;
     grid-template-columns: 50%, auto;
     grid-template-areas:
@@ -7,6 +8,7 @@
      hb hb
      aco aco;
      gap: 8px;
+    }
 }
 
 #jimpic{
