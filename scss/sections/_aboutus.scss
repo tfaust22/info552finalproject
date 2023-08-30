@@ -4,10 +4,10 @@
     grid-column: 40%, auto;
     column-width: 200px;
     grid-template-areas:
-     jp aj
+     "jp aj
      am mp
      hb hb
-     aco aco;
+     aco aco";
      gap: 8px;
     }
 }
