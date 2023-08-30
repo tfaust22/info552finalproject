@@ -1,12 +1,15 @@
 #aboutus-grid{
+    @include xl{
     display: grid;
-    grid-column: 40%, auto;
-    column-width: 200px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
     grid-template-areas:
      "jp aj
      am mp
      hb sv
-     aco aco";     
+     aco aco";
+    }
+        
 }
 
 #jimpic{
