@@ -1,6 +1,7 @@
 #aboutus-grid{
     @include lg{
     display: grid;
+    grid-column: 40%, auto;
     column-width: 200px;
     grid-template-areas:
      jp aj
