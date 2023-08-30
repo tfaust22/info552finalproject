@@ -1,7 +1,7 @@
 #aboutus-grid{
     @include lg{
     display: grid;
-    grid-template-columns: 50%, auto;
+    column-width: 200px;
     grid-template-areas:
      jp aj
      am mp
@@ -9,7 +9,6 @@
      aco aco;
      gap: 8px;
     }
-}
 
 #jimpic{
     grid-area: jp;
@@ -34,4 +33,5 @@
 
 #aboutcompany{
     grid-area: aco;
+}
 }
