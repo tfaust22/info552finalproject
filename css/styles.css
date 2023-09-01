@@ -474,6 +474,10 @@ footer {
 #homebrewpic {
   grid-area: hb;
 }
+#homebrewpic img {
+  height: 500px;
+  width: 500px;
+}
 
 #aboutcompany {
   grid-area: aco;
