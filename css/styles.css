@@ -344,7 +344,7 @@ nav {
 }
 
 .nav-right {
-  float: right;
+  float: inline-start;
 }
 .nav-right nav ul {
   list-style: none;
