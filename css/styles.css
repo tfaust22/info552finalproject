@@ -342,7 +342,7 @@ nav ul {
   overflow: hidden;
 }
 
-nav a {
+nav li {
   display: block;
   width: 60px;
 }
