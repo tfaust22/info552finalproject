@@ -442,11 +442,11 @@ footer {
   #aboutus-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 8px auto;
-    grid-template-columns: 30% auto;
+    -ms-grid-columns: 40% 8px auto;
+    grid-template-columns: 40% auto;
     gap: 8px;
-    -ms-grid-rows: auto 8px auto;
-        grid-template-areas: "jp aj" "am mp";
+    -ms-grid-rows: auto 8px auto 8px auto 8px auto;
+        grid-template-areas: "jp aj" "am mp" "hb sv" "aco aco";
   }
 }
 
@@ -471,6 +471,18 @@ footer {
   grid-area: am;
 }
 
+#homebrewpic {
+  grid-area: hb;
+}
+
+#aboutcompany {
+  grid-area: aco;
+}
+
+#streetview {
+  grid-area: sv;
+}
+
 @media (min-width: 1024px) {
   #jimpic {
     -ms-grid-row: 1;
@@ -488,18 +500,19 @@ footer {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
-}
-
-#homebrewpic {
-  grid-area: hb;
-}
-
-#aboutcompany {
-  grid-area: aco;
-}
-
-#streetview {
-  grid-area: sv;
+  #homebrewpic {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  #aboutcompany {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #streetview {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
 }
 
 div.gallery {
