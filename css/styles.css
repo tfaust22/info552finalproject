@@ -350,6 +350,10 @@ nav a {
 .nav-left {
   float: left;
 }
+.nav-left img {
+  height: 600px;
+  width: 300px;
+}
 
 .nav-right {
   float: right;
@@ -361,10 +365,20 @@ header {
 
 body {
   background-color: #fab433;
+  margin: 0;
 }
 
 footer {
   background-color: #7e6c34;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 /* =============
