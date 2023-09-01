@@ -353,7 +353,7 @@ nav {
   overflow: hidden;
 }
 .nav-right nav li {
-  display: block;
+  display: inline;
   width: 60px;
 }
 
