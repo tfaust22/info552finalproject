@@ -331,36 +331,33 @@ template {
 /* =============
     Base
 ============= */
-nav {
+.header {
   background-color: #faebb3;
 }
-
-.nav-left {
+.header nav {
+  background-color: #faebb3;
+}
+.header .nav-left {
   float: left;
 }
-.nav-left img {
+.header .nav-left img {
   height: 100px;
   width: 250px;
 }
-
-.nav-right {
+.header .nav-right {
   float: inline-start;
 }
-.nav-right nav ul {
+.header .nav-right nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.nav-right nav li {
+.header .nav-right nav li {
   display: inline;
   width: 60px;
   text-align: center;
   text-decoration: none;
-}
-
-header {
-  background-color: #faebb3;
 }
 
 body {

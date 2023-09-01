@@ -2,40 +2,39 @@
     Base
 ============= */
 
-
-nav{
+.header{
     background-color: #faebb3;
-}
 
-
-.nav-left{
-    float: left;
-    img{
-        height: 100px;
-        width: 250px;
-    }
-}
-
-.nav-right{
-    float: inline-start;
-    nav ul{
-        list-style:none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    
-    nav li{
-        display: inline;
-        width: 60px;
-        text-align: center;
-        text-decoration: none;
+    nav{
+        background-color: #faebb3;
     }
 
-}
 
-header{
-    background-color: #faebb3;
+    .nav-left{
+        float: left;
+        img{
+            height: 100px;
+            width: 250px;
+        }
+    }
+
+    .nav-right{
+        float: inline-start;
+        nav ul{
+            list-style:none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        nav li{
+            display: inline;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+    }
 }
 
 body{
