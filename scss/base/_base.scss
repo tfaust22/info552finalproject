@@ -7,6 +7,26 @@ nav{
     background-color: #faebb3;
 }
 
+nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav a{
+    display: block;
+    width: 60px;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+    float: right;
+}
+
 header{
     background-color: #faebb3;
 }
