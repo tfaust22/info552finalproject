@@ -331,6 +331,26 @@ template {
 /* =============
     Base
 ============= */
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+@media (min-width: 1200px) {
+  .content-grid {
+    -ms-grid-columns: auto 1200px auto;
+    grid-template-columns: auto 1200px auto;
+  }
+}
+.content-grid .content-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  background-color: #ffb737;
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
