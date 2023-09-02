@@ -51,4 +51,9 @@ footer{
         grid-template-columns: auto 1200px auto;
     }
 
+    .content-grid-item{
+        background-color: #fab433;
+        grid-area: content;
+
+    }
 }

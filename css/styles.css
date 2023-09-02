@@ -377,6 +377,12 @@ footer {
     grid-template-columns: auto 1200px auto;
   }
 }
+.content-grid .content-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  background-color: #fab433;
+  grid-area: content;
+}
 
 /* =============
     Typography
