@@ -525,6 +525,32 @@ footer {
   }
 }
 
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "hh nu" "sm nu";
+  gap: 8px;
+}
+
+#homepage-hours {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: hh;
+}
+
+#newsupdates {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: nu;
+}
+
+#socialmedia {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: sm;
+}
+
 div.gallery {
   margin: 5px;
   border: 1 px solid #ccc;
