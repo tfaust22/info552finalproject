@@ -436,8 +436,8 @@ footer {
   #aboutus-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 40% 24px auto;
-    grid-template-columns: 40% auto;
+    -ms-grid-columns: 50% 24px auto;
+    grid-template-columns: 50% auto;
     -ms-grid-rows: auto 24px auto 24px auto 24px auto;
         grid-template-areas: "jp  aj" "am  mp" "sv  ." "aco aco";
     gap: 24px;
