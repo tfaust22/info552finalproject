@@ -421,8 +421,8 @@ footer {
   #homepage-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 40% 8px auto;
-    grid-template-columns: 40% auto;
+    -ms-grid-columns: 30% 8px auto;
+    grid-template-columns: 30% auto;
     -ms-grid-rows: auto 8px auto;
         grid-template-areas: "hh  nu" "sm  nu";
     gap: 8px;
