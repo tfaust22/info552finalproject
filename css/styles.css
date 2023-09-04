@@ -359,18 +359,6 @@ footer {
   background-color: #7e6c34;
 }
 
-.nav-left {
-  float: left;
-}
-.nav-left img {
-  height: 250px;
-  width: 300px;
-}
-
-.nav-right {
-  float: right;
-}
-
 /* =============
     Typography
 ============= */
