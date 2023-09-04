@@ -417,6 +417,46 @@ footer {
   font-size: 0.625rem;
 }
 
+@media (min-width: 1024px) {
+  #homepage-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 8px auto;
+    grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 8px auto 8px auto;
+        grid-template-areas: "hh ." "sm ." "nu nu";
+    gap: 8px;
+  }
+}
+
+#homepage-hours {
+  grid-area: hh;
+}
+
+#newsupdates {
+  grid-area: nu;
+}
+
+#socialmedias {
+  grid-area: sm;
+}
+
+@media (min-width: 1024px) {
+  #homepage-hours {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #newsupdates {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #socialmedias {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+}
+
 div.gallery {
   margin: 5px;
   border: 1 px solid #ccc;

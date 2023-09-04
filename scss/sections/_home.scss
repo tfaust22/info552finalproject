@@ -1,0 +1,23 @@
+#homepage-content{
+    @include lg{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas: 
+        "hh ."
+        "sm ."
+        "nu nu";
+        gap: 8px;
+    }
+}
+
+#homepage-hours{
+    grid-area: hh;
+}
+
+#newsupdates{
+    grid-area: nu;
+}
+
+#socialmedias{
+    grid-area: sm;
+}
