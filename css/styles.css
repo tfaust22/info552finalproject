@@ -539,6 +539,7 @@ footer {
 #newsupdates {
   grid-area: nu;
   padding-right: 24px;
+  padding-bottom: 16px;
 }
 
 #socialmedias {
