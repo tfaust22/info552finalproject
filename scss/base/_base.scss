@@ -19,15 +19,21 @@
 
 header{
     background-color: #ffecb3;
-    nav-left{
-        float: left;
-    }
-
-    nav-right{
-        float: right;
-    }
+    
 }
 
 footer{
     background-color: #7e6c34;
+}
+
+.nav-left{
+    float: left;
+    img{
+        height: 250px;
+        width: 300px;
+    }
+}
+
+.nav-right{
+    float: right;
 }

@@ -354,15 +354,21 @@ template {
 header {
   background-color: #ffecb3;
 }
-header nav-left {
-  float: left;
-}
-header nav-right {
-  float: right;
-}
 
 footer {
   background-color: #7e6c34;
+}
+
+.nav-left {
+  float: left;
+}
+.nav-left img {
+  height: 250px;
+  width: 300px;
+}
+
+.nav-right {
+  float: right;
 }
 
 /* =============
