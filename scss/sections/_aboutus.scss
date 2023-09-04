@@ -5,8 +5,8 @@
         grid-template-areas: 
        "jp  aj"
        "am  mp"
-       "aco aco"
-       "sv .";
+       "sv ."
+       "aco aco";
         gap: 24px;
     }
 }
@@ -40,4 +40,5 @@
     grid-area: aco;
     padding-left: 16x;
     padding-right: 24px;
+    padding-bottom: 16px;
 }
