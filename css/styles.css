@@ -446,12 +446,12 @@ footer {
 
 #jimpic {
   grid-area: jp;
-  padding-left: 24px;
+  padding-left: 16px;
 }
 
 #aboutjim {
   grid-area: aj;
-  padding-right: 24px;
+  padding-right: 16px;
 }
 
 #mattpic {
@@ -460,18 +460,18 @@ footer {
 
 #aboutmatt {
   grid-area: am;
-  padding-left: 24px;
+  padding-left: 16px;
 }
 
 #streetview {
   grid-area: sv;
-  padding-left: 24px;
+  padding-left: 16px;
 }
 
 #aboutcompany {
   grid-area: aco;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 16x;
+  padding-right: 16px;
   padding-bottom: 16px;
 }
 
