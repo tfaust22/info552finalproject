@@ -379,6 +379,10 @@ li {
   float: left;
 }
 
+.nav-right {
+  float: inline;
+}
+
 /* =============
     Typography
 ============= */
