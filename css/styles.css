@@ -494,7 +494,7 @@ footer {
     display: grid;
     -ms-grid-columns: 40% auto;
     grid-template-columns: 40% auto;
-        grid-template-areas: ". e ." ". c .";
+        grid-template-areas: "e ." "c .";
   }
 }
 
@@ -509,11 +509,11 @@ footer {
 @media (min-width: 1024px) {
   #events {
     -ms-grid-row: 1;
-    -ms-grid-column: 2;
+    -ms-grid-column: 1;
   }
   #calendar {
     -ms-grid-row: 2;
-    -ms-grid-column: 2;
+    -ms-grid-column: 1;
   }
 }
 
