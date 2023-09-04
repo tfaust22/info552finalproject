@@ -596,6 +596,36 @@ footer {
   }
 }
 
+@media (min-width: 1024px) {
+  #merch-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% auto;
+    grid-template-columns: 40% auto;
+        grid-template-areas: "t  t" "p  .";
+  }
+}
+
+#text {
+  grid-area: t;
+}
+
+#photo {
+  grid-area: p;
+}
+
+@media (min-width: 1024px) {
+  #text {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  #photo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+}
+
 div.gallery {
   margin: 5px;
   border: 1 px solid #ccc;

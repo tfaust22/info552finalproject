@@ -1,0 +1,17 @@
+#merch-content{
+    @include lg{
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-template-areas:
+        "t  t"
+        "p  .";
+    }
+}
+
+#text{
+    grid-area: t;
+}
+
+#photo{
+    grid-area: p;
+}
