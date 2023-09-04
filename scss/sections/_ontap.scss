@@ -3,9 +3,11 @@
         display: grid;
         grid-template-columns: 30% auto;
         grid-template-areas:
-        "f o 5 w m"
-        "ms l k cs th"
-        "tn fh kk kg bb";
+        "f o 5"
+        "w m ms"
+        "l k cs"
+        "th tn fh"
+        "kk kg bb";
         gap: 8px;
     }
 }
