@@ -379,10 +379,11 @@ li {
 
 .nav-left {
   float: left;
+  padding-left: 24px;
 }
 
 .nav-right {
-  padding-left: 24px;
+  padding-left: 48px;
 }
 .nav-right li {
   display: inline;
