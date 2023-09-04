@@ -1,11 +1,10 @@
 #homepage-content{
     @include lg{
         display: grid;
-        grid-template-columns: 30% auto;
+        grid-template-columns: 40% auto.
         grid-template-areas: 
-        "hh ."
-        "sm ."
-        "nu nu";
+       "hh  nu"
+       "sm  nu";
         gap: 8px;
     }
 }
