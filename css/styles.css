@@ -379,8 +379,12 @@ li {
 
 .nav-left {
   float: left;
+  padding: 24px;
 }
 
+.nav-right {
+  padding-left: 24px;
+}
 .nav-right li {
   display: inline;
 }

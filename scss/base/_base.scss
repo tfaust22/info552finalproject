@@ -46,10 +46,13 @@ li{
 
 .nav-left{
     float: left;
+    padding: 24px;
 }
 
 .nav-right{
     li{
       display: inline;
     }
+
+    padding-left: 24px;
 }
