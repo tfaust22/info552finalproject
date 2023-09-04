@@ -1,0 +1,71 @@
+#beer-menu{
+    @include lg{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas:
+        "f o 5 w m"
+        "ms l k cs th"
+        "tn fh kk kg bb";
+        gap: 8px;
+    }
+}
+
+#fantasy{
+    grid-area: f;
+}
+
+#otterrock{
+    grid-area: o;
+}
+
+#57{
+    grid-area: 5;
+}
+
+#wort{
+    grid-area: w;
+}
+
+#monkey{
+    grid-area: m;
+}
+
+#milkstout{
+    grid-area: ms;
+}
+
+#lightning{
+    grid-area: l
+}
+
+#kiss{
+    grid-area: k;
+}
+
+#catsour{
+    grid-area: cs;
+}
+
+#toohop{
+    grid-area: th;
+}
+
+#twicenice{
+    grid-area: tn;
+}
+
+#farmhouse{
+    grid-area: fh;
+}
+
+#kk{
+    grid-area: kk;
+}
+
+#king{
+    grid-area: kg;
+}
+
+#britishbitter{
+    grid-area: bb;
+}
