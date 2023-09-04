@@ -1,0 +1,36 @@
+#aboutus-grid{
+    @include lg{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas: 
+       "jp  aj"
+       "am  mp"
+       "sv  ."
+       "aco aco";
+        gap: 8px;
+    }
+}
+
+#jimpic{
+    grid-area: jp;
+}
+
+#aboutjim{
+    grid-area: aj;
+}
+
+#mattpic{
+    grid-area: mp;
+}
+
+#aboutmatt{
+    grid-area: am;
+}
+
+#streetview{
+    grid-area: sv;
+}
+
+#aboutcompany{
+    grid-area: aco;
+}

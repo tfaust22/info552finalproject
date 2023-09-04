@@ -418,6 +418,70 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  #aboutus-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 8px auto;
+    grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 8px auto 8px auto 8px auto;
+        grid-template-areas: "jp  aj" "am  mp" "sv  ." "aco aco";
+    gap: 8px;
+  }
+}
+
+#jimpic {
+  grid-area: jp;
+}
+
+#aboutjim {
+  grid-area: aj;
+}
+
+#mattpic {
+  grid-area: mp;
+}
+
+#aboutmatt {
+  grid-area: am;
+}
+
+#streetview {
+  grid-area: sv;
+}
+
+#aboutcompany {
+  grid-area: aco;
+}
+
+@media (min-width: 1024px) {
+  #jimpic {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #aboutjim {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  #mattpic {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  #aboutmatt {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  #streetview {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  #aboutcompany {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+}
+
+@media (min-width: 1024px) {
   #homepage-content {
     display: -ms-grid;
     display: grid;
