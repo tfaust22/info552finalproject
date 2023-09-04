@@ -431,14 +431,17 @@ footer {
 
 #homepage-hours {
   grid-area: hh;
+  padding-left: 24px;
 }
 
 #newsupdates {
   grid-area: nu;
+  padding-right: 24px;
 }
 
 #socialmedias {
   grid-area: sm;
+  padding-left: 24px;
 }
 
 @media (min-width: 1024px) {
