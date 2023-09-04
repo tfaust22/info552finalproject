@@ -383,7 +383,7 @@ li {
 }
 
 .nav-right {
-  padding-left: 48px;
+  text-align: center;
 }
 .nav-right li {
   display: inline;
