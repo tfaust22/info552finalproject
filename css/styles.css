@@ -500,12 +500,13 @@ footer {
 
 #events {
   grid-area: e;
-  padding-left: 24px;
+  padding-left: 48px;
 }
 
 #calendar {
   grid-area: c;
-  padding-left: 24px;
+  padding-left: 48px;
+  padding-bottom: 16px;
 }
 
 @media (min-width: 1024px) {
