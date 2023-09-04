@@ -608,10 +608,13 @@ footer {
 
 #text {
   grid-area: t;
+  padding-left: 48px;
 }
 
 #photo {
   grid-area: p;
+  padding-left: 48px;
+  padding-bottom: 16px;
 }
 
 @media (min-width: 1024px) {
