@@ -353,6 +353,8 @@ template {
 
 header {
   background-color: #ffecb3;
+  padding-top: 24px;
+  padding-bottom: 16px;
 }
 
 .nav-left {
