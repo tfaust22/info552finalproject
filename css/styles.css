@@ -384,6 +384,7 @@ li {
 
 .nav-right {
   text-align: center;
+  width: 24px;
 }
 .nav-right li {
   display: inline;
