@@ -609,6 +609,7 @@ footer {
 #text {
   grid-area: t;
   padding-left: 48px;
+  padding-bottom: 16px;
 }
 
 #photo {
