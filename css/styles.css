@@ -488,6 +488,37 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  #events-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 8px auto;
+    grid-template-columns: 40% auto;
+    -ms-grid-rows: auto 8px auto;
+        grid-template-areas: ". e ." ". c .";
+    gap: 8px;
+  }
+}
+
+#events {
+  grid-area: e;
+}
+
+#calendar {
+  grid-area: c;
+}
+
+@media (min-width: 1024px) {
+  #events {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  #calendar {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+}
+
+@media (min-width: 1024px) {
   #homepage-content {
     display: -ms-grid;
     display: grid;

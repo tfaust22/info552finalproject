@@ -1,0 +1,18 @@
+#events-content{
+    @include lg{
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-template-areas: 
+        ". e ."
+        ". c .";
+        gap: 8px;
+    }
+}
+
+#events{
+    grid-area: e;
+}
+
+#calendar{
+    grid-area: c;
+}
