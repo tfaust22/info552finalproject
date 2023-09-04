@@ -421,11 +421,11 @@ footer {
   #aboutus-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 8px auto;
+    -ms-grid-columns: 30% 16px auto;
     grid-template-columns: 30% auto;
-    -ms-grid-rows: auto 8px auto 8px auto 8px auto;
+    -ms-grid-rows: auto 16px auto 16px auto 16px auto;
         grid-template-areas: "jp  aj" "am  mp" "sv  ." "aco aco";
-    gap: 8px;
+    gap: 16px;
   }
 }
 
