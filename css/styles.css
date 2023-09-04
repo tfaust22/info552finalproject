@@ -421,10 +421,10 @@ footer {
   #homepage-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 8px auto;
-    grid-template-columns: 30% auto;
-    -ms-grid-rows: auto 8px auto 8px auto;
-        grid-template-areas: "hh ." "sm ." "nu nu";
+    -ms-grid-columns: 40% 8px auto;
+    grid-template-columns: 40% auto;
+    -ms-grid-rows: auto 8px auto;
+        grid-template-areas: "hh  nu" "sm  nu";
     gap: 8px;
   }
 }
@@ -447,9 +447,9 @@ footer {
     -ms-grid-column: 1;
   }
   #newsupdates {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 3;
   }
   #socialmedias {
     -ms-grid-row: 3;
