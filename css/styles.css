@@ -388,6 +388,10 @@ li {
 .nav-right li {
   display: inline;
 }
+.nav-right a {
+  display: block;
+  padding: 8px;
+}
 
 /* =============
     Typography
