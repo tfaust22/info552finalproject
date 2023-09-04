@@ -501,7 +501,7 @@ footer {
 }
 
 #calendar {
-  padding-left: 48px;
+  padding-left: 24px;
 }
 
 @media (min-width: 1024px) {
