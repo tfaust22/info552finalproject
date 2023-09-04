@@ -47,5 +47,7 @@ li{
 }
 
 .nav-right{
-    float: inline;
+    li{
+      display: inline;
+    }
 }
