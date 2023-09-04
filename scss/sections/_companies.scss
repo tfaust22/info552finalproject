@@ -1,0 +1,17 @@
+#company-content{
+    @include lg{
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-template-areas: 
+       "ft  d";
+        gap: 8px;
+    }
+}
+
+#foodtrucks{
+    grid-area: ft;
+}
+
+#drinks{
+    grid-area: d;
+}

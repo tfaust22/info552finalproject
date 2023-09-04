@@ -489,6 +489,36 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  #company-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 8px auto;
+    grid-template-columns: 40% auto;
+        grid-template-areas: "ft  d";
+    gap: 8px;
+  }
+}
+
+#foodtrucks {
+  grid-area: ft;
+}
+
+#drinks {
+  grid-area: d;
+}
+
+@media (min-width: 1024px) {
+  #foodtrucks {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #drinks {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+}
+
+@media (min-width: 1024px) {
   #events-content {
     display: -ms-grid;
     display: grid;
