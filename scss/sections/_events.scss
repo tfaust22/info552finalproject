@@ -2,14 +2,18 @@
     @include lg{
         display: grid;
         grid-template-columns: 40% auto;
-       
+        grid-template-areas:
+        ". e ."
+        ". c .";
     }
 }
 
 #events{
+    grid-area: e;
     padding-left:48px;
 }
 
 #calendar{
+    grid-area: c;
     padding-left: 24px;
 }

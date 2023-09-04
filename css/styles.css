@@ -493,15 +493,29 @@ footer {
     display: grid;
     -ms-grid-columns: 40% auto;
     grid-template-columns: 40% auto;
+        grid-template-areas: ". e ." ". c .";
   }
 }
 
 #events {
+  grid-area: e;
   padding-left: 48px;
 }
 
 #calendar {
+  grid-area: c;
   padding-left: 24px;
+}
+
+@media (min-width: 1024px) {
+  #events {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+  #calendar {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }
 }
 
 @media (min-width: 1024px) {
