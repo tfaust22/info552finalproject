@@ -500,8 +500,8 @@ footer {
   #company-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 40% 16px auto;
-    grid-template-columns: 40% auto;
+    -ms-grid-columns: 50% 16px auto;
+    grid-template-columns: 50% auto;
         grid-template-areas: "ft  d";
     gap: 16px;
   }
