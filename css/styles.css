@@ -698,7 +698,7 @@ footer {
     -ms-grid-columns: 30% 8px auto;
     grid-template-columns: 30% auto;
     -ms-grid-rows: auto 8px auto 8px auto 8px auto 8px auto;
-        grid-template-areas: "f o five" "w m ms" "l k cs" "th tn fh" "kk kg bb";
+        grid-template-areas: "f o fs" "w m ms" "l k cs" "th tn fh" "kk kg bb";
     gap: 8px;
   }
 }
@@ -712,7 +712,7 @@ footer {
 }
 
 #fiftyseven {
-  grid-area: five;
+  grid-area: fs;
 }
 
 #wort {
