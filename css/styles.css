@@ -467,6 +467,7 @@ footer {
 #aboutmatt {
   grid-area: am;
   padding-left: 16px;
+  line-height: 1.25;
 }
 
 #streetview {
@@ -479,6 +480,7 @@ footer {
   padding-left: 16x;
   padding-right: 16px;
   padding-bottom: 16px;
+  line-height: 1.25;
 }
 
 @media (min-width: 1024px) {
