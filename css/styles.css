@@ -691,6 +691,10 @@ footer {
   }
 }
 
+h2 {
+  padding-left: 16px;
+}
+
 @media (min-width: 1024px) {
   #beer-menu {
     display: -ms-grid;
@@ -709,6 +713,7 @@ footer {
 #fantasy img {
   height: auto;
   max-width: 100%;
+  padding-left: 16px;
 }
 
 #otterrock {
@@ -733,6 +738,7 @@ footer {
 #monkey img {
   height: auto;
   max-width: 100%;
+  padding-left: 16px;
 }
 
 #milkstout {
@@ -757,6 +763,7 @@ footer {
 #kiss img {
   height: auto;
   max-width: 100%;
+  padding-left: 16px;
 }
 
 #catsour {
@@ -781,6 +788,7 @@ footer {
 #twicenice img {
   height: auto;
   max-width: 100%;
+  padding-left: 16px;
 }
 
 #farmhouse {
@@ -805,6 +813,7 @@ footer {
 #king img {
   height: auto;
   max-width: 100%;
+  padding-left: 16px;
 }
 
 #britishbitter {
@@ -888,6 +897,7 @@ footer {
 
 #saucony {
   grid-area: sy;
+  padding-left: 16px;
 }
 
 #maidens {
@@ -900,6 +910,7 @@ footer {
 
 #appletini {
   grid-area: at;
+  padding-left: 16px;
 }
 
 #oaks {
@@ -908,6 +919,7 @@ footer {
 
 #whitewine {
   grid-area: ww;
+  padding-left: 16px;
 }
 
 #redwine {
