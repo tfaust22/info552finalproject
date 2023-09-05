@@ -917,6 +917,9 @@ h2 {
   max-width: 50%;
 }
 
+#guesttap {
+  line-height: 1.5;
+}
 @media (min-width: 1024px) {
   #guesttap {
     display: -ms-grid;
