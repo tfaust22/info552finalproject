@@ -530,8 +530,8 @@ footer {
   #contact-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 40% 16px auto;
-    grid-template-columns: 40% auto;
+    -ms-grid-columns: 50% 16px auto;
+    grid-template-columns: 50% auto;
     -ms-grid-rows: auto 16px auto 16px auto;
         grid-template-areas: "hr cp" "ci ." "ad .";
     gap: 16px;
