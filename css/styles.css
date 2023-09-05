@@ -709,6 +709,7 @@ footer {
 #fantasy img {
   height: auto;
   max-width: 100%;
+  border: none;
 }
 
 #otterrock {
