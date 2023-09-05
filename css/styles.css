@@ -530,11 +530,11 @@ footer {
   #contact-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 16px auto;
+    -ms-grid-columns: 50% 8px auto;
     grid-template-columns: 50% auto;
-    -ms-grid-rows: auto 16px auto 16px auto;
+    -ms-grid-rows: auto 8px auto 8px auto;
         grid-template-areas: "hr cp" "ci cp" "ad cp";
-    gap: 16px;
+    gap: 8px;
   }
 }
 
