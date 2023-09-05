@@ -695,8 +695,8 @@ footer {
   #beer-menu {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 8px auto;
-    grid-template-columns: 30% auto;
+    -ms-grid-columns: 40% 8px auto;
+    grid-template-columns: 40% auto;
     -ms-grid-rows: auto 8px auto 8px auto 8px auto 8px auto;
         grid-template-areas: "f o fs" "m ms l" "k cs th" "tn fh kk" "kg bb .";
     gap: 8px;
@@ -878,11 +878,11 @@ footer {
   #guesttap {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 40% 8px auto;
-    grid-template-columns: 40% auto;
-    -ms-grid-rows: auto 8px auto 8px auto;
+    -ms-grid-columns: 30% 16px auto;
+    grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 16px auto 16px auto;
         grid-template-areas: "sy md pr" "at os ." "ww rw .";
-    gap: 8px;
+    gap: 16px;
   }
 }
 

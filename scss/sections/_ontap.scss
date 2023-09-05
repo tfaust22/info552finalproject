@@ -1,7 +1,7 @@
 #beer-menu{
     @include lg{
         display: grid;
-        grid-template-columns: 30% auto;
+        grid-template-columns: 40% auto;
         grid-template-areas:
         "f o fs"
         "m ms l"
@@ -129,12 +129,12 @@
 #guesttap{
     @include lg{
         display: grid;
-        grid-template-columns: 40% auto;
+        grid-template-columns: 30% auto;
         grid-template-areas:
         "sy md pr"
         "at os ."
         "ww rw .";
-        gap: 8px;
+        gap: 16px;
     }
 }
 
