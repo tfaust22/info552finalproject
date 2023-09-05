@@ -533,7 +533,7 @@ footer {
     -ms-grid-columns: 50% 16px auto;
     grid-template-columns: 50% auto;
     -ms-grid-rows: auto 16px auto 16px auto;
-        grid-template-areas: "hr cp" "ci ." "ad .";
+        grid-template-areas: "hr cp" "ci cp" "ad cp";
     gap: 16px;
   }
 }
@@ -573,6 +573,7 @@ footer {
   }
   #contactphoto {
     -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
     -ms-grid-column: 3;
   }
 }
