@@ -652,14 +652,14 @@ footer {
 #homepage-hours {
   grid-area: hh;
   padding-left: 24px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 #newsupdates {
   grid-area: nu;
   padding-right: 24px;
   padding-bottom: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 #socialmedias {
