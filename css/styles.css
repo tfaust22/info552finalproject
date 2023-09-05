@@ -372,6 +372,10 @@ li {
 .nav-left {
   float: left;
 }
+.nav-left img {
+  height: auto;
+  width: 80%;
+}
 
 .nav-right {
   text-align: center;
