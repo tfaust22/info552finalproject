@@ -3,7 +3,7 @@
         display: grid;
         grid-template-columns: 30% auto;
         grid-template-areas:
-        "f o 5"
+        "f o five"
         "w m ms"
         "l k cs"
         "th tn fh"
@@ -20,8 +20,8 @@
     grid-area: o;
 }
 
-#57{
-    grid-area: 5;
+#fiftyseven{
+    grid-area: five;
 }
 
 #wort{

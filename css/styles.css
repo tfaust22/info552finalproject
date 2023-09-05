@@ -371,7 +371,6 @@ li {
 
 .nav-left {
   float: left;
-  padding-left: 8px;
 }
 
 .nav-right {
@@ -422,23 +421,25 @@ footer {
   padding-top: 24px;
   padding-bottom: 24px;
   font-size: 0.625rem;
+  clear: both;
 }
 
 @media (min-width: 1024px) {
   #aboutus-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 24px auto;
-    grid-template-columns: 50% auto;
-    -ms-grid-rows: auto 24px auto 24px auto 24px auto;
-        grid-template-areas: "jp  aj" "am  mp" "sv  ." "aco aco";
-    gap: 24px;
+    -ms-grid-columns: 40% 16px auto;
+    grid-template-columns: 40% auto;
+    -ms-grid-rows: auto 16px auto 16px auto 16px auto;
+        grid-template-areas: "jp  aj" "am  mp" "sv ." "aco aco";
+    gap: 16px;
   }
 }
 
 #jimpic {
   grid-area: jp;
   padding-left: 16px;
+  padding-top: 32px;
 }
 
 #aboutjim {
@@ -525,16 +526,55 @@ footer {
   }
 }
 
+@media (min-width: 1024px) {
+  #contact-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 16px auto;
+    grid-template-columns: 40% auto;
+    -ms-grid-rows: auto 16px auto 16px auto;
+        grid-template-areas: "hr cp" "ci ." "ad .";
+    gap: 16px;
+  }
+}
+
 #hours {
+  grid-area: hr;
   padding-left: 24px;
 }
 
 #contactinfo {
+  grid-area: ci;
   padding-left: 24px;
 }
 
 #address {
+  grid-area: ad;
   padding-left: 24px;
+}
+
+#contactphoto {
+  grid-area: cp;
+  padding-right: 24px;
+}
+
+@media (min-width: 1024px) {
+  #hours {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #contactinfo {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  #address {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  #contactphoto {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -646,6 +686,141 @@ footer {
   #photo {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  #beer-menu {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 8px auto;
+    grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 8px auto 8px auto 8px auto 8px auto;
+        grid-template-areas: "f o five" "w m ms" "l k cs" "th tn fh" "kk kg bb";
+    gap: 8px;
+  }
+}
+
+#fantasy {
+  grid-area: f;
+}
+
+#otterrock {
+  grid-area: o;
+}
+
+#fiftyseven {
+  grid-area: five;
+}
+
+#wort {
+  grid-area: w;
+}
+
+#monkey {
+  grid-area: m;
+}
+
+#milkstout {
+  grid-area: ms;
+}
+
+#lightning {
+  grid-area: l;
+}
+
+#kiss {
+  grid-area: k;
+}
+
+#catsour {
+  grid-area: cs;
+}
+
+#toohop {
+  grid-area: th;
+}
+
+#twicenice {
+  grid-area: tn;
+}
+
+#farmhouse {
+  grid-area: fh;
+}
+
+#kk {
+  grid-area: kk;
+}
+
+#king {
+  grid-area: kg;
+}
+
+#britishbitter {
+  grid-area: bb;
+}
+
+@media (min-width: 1024px) {
+  #fantasy {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #otterrock {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  #fiftyseven {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+  }
+  #wort {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  #monkey {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  #milkstout {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+  }
+  #lightning {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  #kiss {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+  #catsour {
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+  }
+  #toohop {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }
+  #twicenice {
+    -ms-grid-row: 7;
+    -ms-grid-column: 3;
+  }
+  #farmhouse {
+    -ms-grid-row: 7;
+    -ms-grid-column: 5;
+  }
+  #kk {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+  }
+  #king {
+    -ms-grid-row: 9;
+    -ms-grid-column: 3;
+  }
+  #britishbitter {
+    -ms-grid-row: 9;
+    -ms-grid-column: 5;
   }
 }
 
