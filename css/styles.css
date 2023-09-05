@@ -698,7 +698,7 @@ footer {
     -ms-grid-columns: 30% 8px auto;
     grid-template-columns: 30% auto;
     -ms-grid-rows: auto 8px auto 8px auto 8px auto 8px auto;
-        grid-template-areas: "f o fs" "w m ms" "l k cs" "th tn fh" "kk kg bb";
+        grid-template-areas: "f o fs" "m ms l" "k cs th" "tn fh kk" "kg bb .";
     gap: 8px;
   }
 }
@@ -723,14 +723,6 @@ footer {
   grid-area: fs;
 }
 #fiftyseven img {
-  height: auto;
-  max-width: 100%;
-}
-
-#wort {
-  grid-area: w;
-}
-#wort img {
   height: auto;
   max-width: 100%;
 }
@@ -832,53 +824,49 @@ footer {
     -ms-grid-row: 1;
     -ms-grid-column: 5;
   }
-  #wort {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
   #monkey {
     -ms-grid-row: 3;
-    -ms-grid-column: 3;
+    -ms-grid-column: 1;
   }
   #milkstout {
     -ms-grid-row: 3;
-    -ms-grid-column: 5;
+    -ms-grid-column: 3;
   }
   #lightning {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
   }
   #kiss {
     -ms-grid-row: 5;
-    -ms-grid-column: 3;
+    -ms-grid-column: 1;
   }
   #catsour {
     -ms-grid-row: 5;
-    -ms-grid-column: 5;
+    -ms-grid-column: 3;
   }
   #toohop {
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
   }
   #twicenice {
     -ms-grid-row: 7;
-    -ms-grid-column: 3;
+    -ms-grid-column: 1;
   }
   #farmhouse {
     -ms-grid-row: 7;
-    -ms-grid-column: 5;
+    -ms-grid-column: 3;
   }
   #kk {
-    -ms-grid-row: 9;
-    -ms-grid-column: 1;
+    -ms-grid-row: 7;
+    -ms-grid-column: 5;
   }
   #king {
     -ms-grid-row: 9;
-    -ms-grid-column: 3;
+    -ms-grid-column: 1;
   }
   #britishbitter {
     -ms-grid-row: 9;
-    -ms-grid-column: 5;
+    -ms-grid-column: 3;
   }
 }
 #britishbitter img {

@@ -4,10 +4,10 @@
         grid-template-columns: 30% auto;
         grid-template-areas:
         "f o fs"
-        "w m ms"
-        "l k cs"
-        "th tn fh"
-        "kk kg bb";
+        "m ms l"
+        "k cs th"
+        "tn fh kk"
+        "kg bb .";
         gap: 8px;
     }
 }
@@ -36,13 +36,6 @@
     }
 }
 
-#wort{
-    grid-area: w;
-    img{
-        height:auto;
-        max-width: 100%;
-    }
-}
 
 #monkey{
     grid-area: m;
