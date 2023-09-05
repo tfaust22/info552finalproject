@@ -125,3 +125,43 @@
         max-width: 100%;
     }
 }
+
+#guesttap{
+    @include lg{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas:
+        "sy md pr"
+        "at os ."
+        "ww rw .";
+        gap: 8px;
+    }
+}
+
+#saucony{
+    grid-area: sy;
+}
+
+#maidens{
+    grid-area: md;
+}
+
+#purplerain{
+    grid-area: pr;
+}
+
+#appletini{
+    grid-area: at;
+}
+
+#oaks{
+    grid-area: os;
+}
+
+#whitewine{
+    grid-area: ww;
+}
+
+#redwine{
+    grid-area: rw;
+}

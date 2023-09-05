@@ -874,6 +874,77 @@ footer {
   max-width: 100%;
 }
 
+@media (min-width: 1024px) {
+  #guesttap {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 8px auto;
+    grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 8px auto 8px auto;
+        grid-template-areas: "sy md pr" "at os ." "ww rw .";
+    gap: 8px;
+  }
+}
+
+#saucony {
+  grid-area: sy;
+}
+
+#maidens {
+  grid-area: md;
+}
+
+#purplerain {
+  grid-area: pr;
+}
+
+#appletini {
+  grid-area: at;
+}
+
+#oaks {
+  grid-area: os;
+}
+
+#whitewine {
+  grid-area: ww;
+}
+
+#redwine {
+  grid-area: rw;
+}
+
+@media (min-width: 1024px) {
+  #saucony {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #maidens {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  #purplerain {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+  }
+  #appletini {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  #oaks {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  #whitewine {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  #redwine {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+}
+
 div.gallery {
   margin: 5px;
   border: 1 px solid #ccc;
