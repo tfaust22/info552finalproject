@@ -709,7 +709,7 @@ h2 {
 
 #fantasy {
   grid-area: f;
-  padding-left: 16px;
+  padding-left: 24px;
 }
 #fantasy img {
   height: auto;
@@ -726,7 +726,7 @@ h2 {
 
 #fiftyseven {
   grid-area: fs;
-  padding-left: 16px;
+  padding-left: 24px;
 }
 #fiftyseven img {
   height: auto;
@@ -735,11 +735,11 @@ h2 {
 
 #monkey {
   grid-area: m;
+  padding-left: 24px;
 }
 #monkey img {
   height: auto;
   max-width: 50%;
-  padding-left: 16px;
 }
 
 #milkstout {
@@ -761,11 +761,11 @@ h2 {
 
 #kiss {
   grid-area: k;
+  padding-left: 24px;
 }
 #kiss img {
   height: auto;
   max-width: 50%;
-  padding-left: 16px;
 }
 
 #catsour {
@@ -787,11 +787,11 @@ h2 {
 
 #twicenice {
   grid-area: tn;
+  padding-left: 24px;
 }
 #twicenice img {
   height: auto;
   max-width: 50%;
-  padding-left: 16px;
 }
 
 #farmhouse {
@@ -813,11 +813,11 @@ h2 {
 
 #king {
   grid-area: kg;
+  padding-left: 24px;
 }
 #king img {
   height: auto;
   max-width: 50%;
-  padding-left: 16px;
 }
 
 #britishbitter {
@@ -901,7 +901,7 @@ h2 {
 
 #saucony {
   grid-area: sy;
-  padding-left: 16px;
+  padding-left: 24px;
 }
 
 #maidens {
@@ -915,7 +915,7 @@ h2 {
 
 #appletini {
   grid-area: at;
-  padding-left: 16px;
+  padding-left: 24px;
 }
 
 #oaks {
@@ -924,7 +924,7 @@ h2 {
 
 #whitewine {
   grid-area: ww;
-  padding-left: 16px;
+  padding-left: 24px;
 }
 
 #redwine {
