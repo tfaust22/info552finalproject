@@ -721,7 +721,7 @@ h2 {
 }
 #otterrock img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #fiftyseven {
@@ -729,7 +729,7 @@ h2 {
 }
 #fiftyseven img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-right: 16px;
 }
 
@@ -738,7 +738,7 @@ h2 {
 }
 #monkey img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-left: 16px;
 }
 
@@ -755,7 +755,7 @@ h2 {
 }
 #lightning img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-right: 16px;
 }
 
@@ -764,7 +764,7 @@ h2 {
 }
 #kiss img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-left: 16px;
 }
 
@@ -773,7 +773,7 @@ h2 {
 }
 #catsour img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #toohop {
@@ -781,7 +781,7 @@ h2 {
 }
 #toohop img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-right: 16px;
 }
 
@@ -790,7 +790,7 @@ h2 {
 }
 #twicenice img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-left: 16px;
 }
 
@@ -799,7 +799,7 @@ h2 {
 }
 #farmhouse img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #kk {
@@ -807,7 +807,7 @@ h2 {
 }
 #kk img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-right: 16px;
 }
 
@@ -816,7 +816,7 @@ h2 {
 }
 #king img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   padding-left: 16px;
 }
 
@@ -884,7 +884,7 @@ h2 {
 }
 #britishbitter img {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 @media (min-width: 1024px) {
