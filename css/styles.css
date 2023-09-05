@@ -730,6 +730,7 @@ h2 {
 #fiftyseven img {
   height: auto;
   max-width: 100%;
+  padding-right: 16px;
 }
 
 #monkey {
@@ -755,6 +756,7 @@ h2 {
 #lightning img {
   height: auto;
   max-width: 100%;
+  padding-right: 16px;
 }
 
 #kiss {
@@ -780,6 +782,7 @@ h2 {
 #toohop img {
   height: auto;
   max-width: 100%;
+  padding-right: 16px;
 }
 
 #twicenice {
@@ -805,6 +808,7 @@ h2 {
 #kk img {
   height: auto;
   max-width: 100%;
+  padding-right: 16px;
 }
 
 #king {
@@ -906,6 +910,7 @@ h2 {
 
 #purplerain {
   grid-area: pr;
+  padding-right: 16px;
 }
 
 #appletini {
