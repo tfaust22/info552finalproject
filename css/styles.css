@@ -600,6 +600,9 @@ footer {
   }
 }
 
+#events-content {
+  line-height: 1.25;
+}
 @media (min-width: 1024px) {
   #events-content {
     display: -ms-grid;
@@ -649,12 +652,14 @@ footer {
 #homepage-hours {
   grid-area: hh;
   padding-left: 24px;
+  line-height: 1.25;
 }
 
 #newsupdates {
   grid-area: nu;
   padding-right: 24px;
   padding-bottom: 16px;
+  line-height: 1.25;
 }
 
 #socialmedias {
@@ -692,6 +697,7 @@ footer {
   grid-area: t;
   padding-left: 48px;
   padding-bottom: 16px;
+  line-height: 1.25;
 }
 
 #photo {
