@@ -1,11 +1,31 @@
+#contact-content{
+    @include lg{
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-template-areas: 
+        "hr cp"
+        "ci cp"
+        "ad cp";
+        gap: 16px;
+    }
+}
+
 #hours{
+    grid-area: hr;
     padding-left: 24px;
 }
 
 #contactinfo{
+    grid-area: ci;
     padding-left: 24px;
 }
 
 #address{
+    grid-area: ad;
     padding-left: 24px;
+}
+
+#contactphoto{
+    grid-area: cp;
+    padding-right: 24px;
 }
