@@ -709,59 +709,124 @@ footer {
 #fantasy img {
   height: auto;
   max-width: 100%;
-  border: none;
+  vertical-align: top;
 }
 
 #otterrock {
   grid-area: o;
 }
+#otterrock img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #fiftyseven {
   grid-area: fs;
+}
+#fiftyseven img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 #wort {
   grid-area: w;
 }
+#wort img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #monkey {
   grid-area: m;
+}
+#monkey img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 #milkstout {
   grid-area: ms;
 }
+#milkstout img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #lightning {
   grid-area: l;
+}
+#lightning img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 #kiss {
   grid-area: k;
 }
+#kiss img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #catsour {
   grid-area: cs;
+}
+#catsour img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 #toohop {
   grid-area: th;
 }
+#toohop img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #twicenice {
   grid-area: tn;
+}
+#twicenice img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 #farmhouse {
   grid-area: fh;
 }
+#farmhouse img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #kk {
   grid-area: kk;
 }
+#kk img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
 
 #king {
   grid-area: kg;
+}
+#king img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 #britishbitter {
@@ -829,6 +894,11 @@ footer {
     -ms-grid-row: 9;
     -ms-grid-column: 5;
   }
+}
+#britishbitter img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 div.gallery {
