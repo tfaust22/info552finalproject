@@ -384,6 +384,14 @@ li {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+nav {
+  font-family: "Playfair Display", serif;
+}
+
 /* =============
     Buttons
 ============= */
