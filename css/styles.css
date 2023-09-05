@@ -512,7 +512,7 @@ footer {
 }
 
 #company-content {
-  line-height: 1.25;
+  line-height: 1.5;
 }
 @media (min-width: 1024px) {
   #company-content {
@@ -559,7 +559,7 @@ footer {
 #hours {
   grid-area: hr;
   padding-left: 24px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 #contactinfo {
@@ -571,7 +571,7 @@ footer {
 #address {
   grid-area: ad;
   padding-left: 24px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 #contactphoto {
@@ -722,6 +722,9 @@ h2 {
   padding-left: 16px;
 }
 
+#beer-menu {
+  line-height: 1.25;
+}
 @media (min-width: 1024px) {
   #beer-menu {
     display: -ms-grid;
